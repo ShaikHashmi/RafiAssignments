@@ -1,0 +1,36 @@
+/* body{
+    display: grid;
+    height: 600px;
+    justify-content:center ;
+    align-items: center; 
+}
+     */
+    
+
+.cube{
+ height: 200px;
+ width: 200px;
+ background-color: rgb(30, 138, 232);
+}
+
+
+/* body{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+} */
+/* .cube{
+margin: 250px auto;
+} */
+/* 
+.cube{
+    position: relative;
+    left: 700px;
+    top: 250px;
+    
+} */
+.cube{
+    transform: translate(600px, 200px);
+  ]
+}
