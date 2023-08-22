@@ -3,14 +3,15 @@
     height: 600px;
     justify-content:center ;
     align-items: center; 
-}
-     */
+} */
+    
     
 
 .cube{
  height: 200px;
  width: 200px;
  background-color: rgb(30, 138, 232);
+
 }
 
 
@@ -20,17 +21,23 @@
     justify-content: center;
     align-items: center;
 } */
-/* .cube{
-margin: 250px auto;
-} */
-/* 
 .cube{
+margin: 250px auto;
+}
+
+ /* .cube{
     position: relative;
+    background-color: aquamarine;
     left: 700px;
     top: 250px;
+ } */
+
+     
+
+ /* .cube{
+
+    transform: translate(600px, 200px); }
     
-} */
-.cube{
-    transform: translate(600px, 200px);
-  ]
-}
+     */
+   
+

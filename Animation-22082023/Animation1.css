@@ -1,0 +1,51 @@
+.Animation{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border-radius: 30px;
+    background-color: chocolate;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes move {
+    0%{
+        top: 70px;
+        left: 0px;
+        background-color: blue;
+    }
+    25%{
+        top: 500px;
+        left: 0px;
+        background-color: aquamarine;
+
+    }
+    50%{
+        left: 1350px;
+        top: 500px;
+        background-color: blueviolet;
+    }
+    75%{
+        
+        top: 0px;
+        left: 1350px;
+        background-color: bisque;
+    }
+    100%{
+        top: 0px;
+        left: 0;
+        
+    }
+    
+}
+h1{
+    text-align: center;
+}
+.main{
+    border: 1px solid black;
+    height: 650px;
+    width: 1500px;
+    position: relative;
+}

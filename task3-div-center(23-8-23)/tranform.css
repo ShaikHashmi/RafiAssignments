@@ -1,0 +1,29 @@
+.cube{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+}
+body{
+    display: flex;
+    height: 700px;
+    justify-content: center;      
+    align-items: center;
+}
+.cube:hover{
+    background-color: blue;
+    transition-duration: 5s;
+    
+}
+/* .cube{
+    position: relative;
+    background-color: aquamarine;
+    left: 650px;
+    top: 250px;
+} */
+/* .cube{
+    margin: 250px auto;
+} */
+/* .cube{
+    transform: translate(600px,250px);
+    animation-duration: 2.0;
+} */
